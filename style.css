@@ -1,0 +1,377 @@
+*{
+box-sizing:border-box;
+}
+
+body{
+margin:0;
+background:#f8f9fb;
+font-family:Arial;
+color:#14213b;
+font-size:12px;
+}
+
+.all{
+display:grid;
+grid-template-columns:160px 1fr;
+}
+
+.side{
+background:white;
+padding:20px 10px;
+border-left:1px solid #ddd;
+min-height:100vh;
+}
+
+.logo{
+text-align:center;
+font-size:25px;
+font-weight:bold;
+margin-bottom:35px;
+}
+
+.logo p{
+font-size:10px;
+font-weight:normal;
+}
+
+.menu{
+display:grid;
+gap:10px;
+}
+
+.menu div{
+padding:12px;
+border-radius:7px;
+}
+
+.menu div:first-child{
+background:#eaf2ff;
+color:#245bff;
+}
+
+.main{
+padding:20px;
+display:grid;
+gap:14px;
+align-content:start;
+}
+
+.box{
+background:white;
+border:1px solid #e3e6eb;
+border-radius:10px;
+padding:15px;
+}
+
+.top{
+display:grid;
+grid-template-columns:1fr 1fr;
+align-items:center;
+background:#f8fafc;
+}
+
+.top h2{
+margin:0;
+}
+
+.user{
+text-align:left;
+}
+
+
+
+
+.nums{
+display:grid;
+grid-template-columns:1fr 1fr 1fr;
+gap:14px;
+}
+
+.num{
+height:103px;
+display:grid;
+align-content:center;
+}
+
+.num h1{
+font-size:23px;
+margin:8px 0;
+}
+
+small{
+color:#8993a6;
+}
+
+.green{
+color:#00b65a;
+}
+
+.red{
+color:#f43b45;
+}
+
+.blue{
+color:#3269ff;
+}
+
+.middle{
+display:grid;
+grid-template-columns:1fr 2fr;
+gap:10px;
+}
+
+.right{
+display:grid;
+gap:10px;
+}
+
+h3{
+font-size:13px;
+margin:0 0 18px;
+}
+
+.activity{
+background:#edf4ff;
+padding:15px;
+margin-bottom:10px;
+border-radius:7px;
+border-right:3px solid #3478ff;
+}
+
+.activity2{
+background:#edfff4;
+border-right:3px solid #00c766;
+}
+
+.activity b{
+display:block;
+margin-bottom:7px;
+}
+
+.bill{
+font-size:24px;
+font-weight:bold;
+text-align:center;
+margin:15px;
+}
+
+.bill small{
+display:block;
+font-size:10px;
+}
+
+.bills{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:8px;
+}
+
+.bills div{
+background:#f7f8fa;
+padding:14px;
+text-align:center;
+border-radius:8px;
+}
+
+.bills b{
+display:block;
+margin:7px;
+}
+
+.transactions{
+display:grid;
+}
+
+.trow{
+display:grid;
+grid-template-columns:2fr 1fr 1.3fr 1fr 1fr;
+align-items:center;
+border-bottom:1px solid #eee;
+padding:13px 5px;
+gap:5px;
+}
+
+.trow:last-child{
+border:0;
+}
+
+.trow small{
+display:block;
+margin-top:5px;
+}
+
+.head{
+    font-size: 15px;
+    color: black;
+}
+
+.tag{
+background:#dcf8e9;
+color:#159a5b;
+padding:5px;
+border-radius:10px;
+display:inline-block;
+}
+
+.tag2{
+background:#e4edff;
+color:blue;
+}
+
+.tag3{
+background:#fff0dd;
+color:#d98021;
+}
+
+.tag4{
+background:#f8e6ff;
+color:purple;
+}
+
+.bottom{
+display:grid;
+grid-template-columns:1fr 1fr 1fr;
+gap:10px;
+}
+
+.budget{
+background:#f8f9fb;
+padding:13px;
+margin-bottom:10px;
+border-radius:8px;
+border:1px solid #eee;
+}
+
+.budget b{
+display:block;
+margin-bottom:10px;
+}
+
+.bar{
+height:6px;
+background:#ddd;
+margin-top:12px;
+border-radius:10px;
+}
+
+.bar span{
+display:block;
+height:6px;
+border-radius:10px;
+}
+
+.center{
+display:grid;
+gap:10px;
+}
+
+.chart{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:15px;
+height:170px;
+align-items:end;
+text-align:center;
+}
+
+.lines{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:4px;
+align-items:end;
+height:120px;
+width:30px;
+margin:auto;
+}
+
+.lines div:first-child{
+background:#ef4545;
+height:40px;
+}
+
+.lines div:last-child{
+background:#14b981;
+height:90px;
+}
+
+.chart small{
+display:block;
+margin-top:10px;
+}
+
+.account{
+background:#f8f9fb;
+padding:15px;
+margin-bottom:10px;
+border-radius:8px;
+}
+
+.account b{
+display:block;
+margin-bottom:8px;
+}
+
+.bank{
+height:125px;
+padding:18px;
+border-radius:10px;
+color:white;
+margin-bottom:10px;
+display:grid;
+align-content:space-between;
+}
+
+.bank b{
+font-size:16px;
+text-align:center;
+}
+
+.bank small{
+color:white;
+}
+
+.purple{
+background:#3528b8;
+}
+
+.pink{
+background:#ce003e;
+}
+
+.navy{
+background:#1c41b5;
+}
+
+a{
+color:#3269ff;
+text-decoration:none;
+}
+
+@media(max-width:850px){
+.all{
+grid-template-columns:1fr;
+}
+
+.side{
+display:none;
+}
+
+.middle,.bottom{
+grid-template-columns:1fr;
+}
+}
+
+@media(max-width:500px){
+.nums{
+grid-template-columns:1fr;
+}
+
+.trow{
+font-size:9px;
+gap:3px;
+}
+
+.main{
+padding:10px;
+}
+}
